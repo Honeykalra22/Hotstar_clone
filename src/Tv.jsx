@@ -5,7 +5,7 @@ function Tv() {
     const scrollContainer = useRef(null);
 
     return (
-        <div className='h-auto'>
+        <div className='h-auto my-10 md:my-2'>
             <div className='flex space-x-4 py-1 px-2 scroll-smooth overflow-x-scroll overflow-y-hidden no-scrollbar'>
                 {All_videos.map((item, index) => {
                     if (item.type === 'tv_poster') {
