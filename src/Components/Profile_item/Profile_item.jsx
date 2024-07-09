@@ -13,7 +13,7 @@ function Profile_item(props) {
                         required
                         id='name'
                         placeholder='enter your full name'
-                        className='w-[45vw] py-3 px-7 text-black capitalize rounded-xl'
+                        className='w-[80vw] md:w-[45vw] py-3 px-7 text-black capitalize rounded-xl'
                     />
                 </div>
 
@@ -23,8 +23,8 @@ function Profile_item(props) {
                         type='email'
                         required
                         id='email'
-                        placeholder='enter your email'
-                        className='w-[45vw] py-3 px-7 text-black rounded-xl'
+                        placeholder='Enter Your Email'
+                        className='w-[80vw] md:w-[45vw] py-3 px-7 text-black rounded-xl'
                     />
                 </div>
 
@@ -35,7 +35,7 @@ function Profile_item(props) {
                         required
                         id='password'
                         placeholder='Enter Your Password'
-                        className='w-[45vw] py-3 px-7 text-black rounded-xl'
+                        className='w-[80vw] md:w-[45vw] py-3 px-7 text-black rounded-xl'
                     />
 
                 </div>
