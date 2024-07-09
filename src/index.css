@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.before::before{
+    content: '';
+    background-image: 'item.heading';
+    position: absolute;
+    background: center;
+    z-index: 1;
+}
